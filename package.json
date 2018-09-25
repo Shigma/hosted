@@ -1,0 +1,35 @@
+{
+  "name": "hosted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "tslint src/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shigma/hosted.git"
+  },
+  "keywords": [
+    "hosts"
+  ],
+  "author": "shigma <1700011071@pku.edu.cn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shigma/hosted/issues"
+  },
+  "homepage": "https://github.com/Shigma/hosted#readme",
+  "devDependencies": {
+    "@types/node": "^10.11.0",
+    "@types/node-fetch": "^2.1.2",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "dns-packet": "^5.0.3",
+    "node-fetch": "^2.2.0"
+  }
+}

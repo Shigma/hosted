@@ -1,0 +1,44 @@
+extends: tslint:recommended
+
+defaultSeverity: warning
+
+rules: 
+  array-type: false
+  arrow-parens: false
+  ban-types: false
+  curly: false
+  forin: false
+  interface-name: false
+  max-classes-per-file: false
+  member-access: false
+  member-ordering: false
+  no-console: false
+  no-empty-interface: false
+  no-namespace: false
+  no-shadowed-variable: false
+  no-trailing-whitespace: false
+  no-unused-expression: false
+  object-literal-shorthand: false
+  object-literal-sort-keys: false
+  ordered-imports: false
+  variable-name: false
+
+  quotemark:
+    - true
+    - single
+    - avoid-escape
+    - avoid-template
+
+  semicolon:
+    - true
+    - never
+
+  trailing-comma:
+    - true
+    - singleline: never
+      multiline:
+        objects: ignore
+        arrays: always
+        functions: ignore
+        typeLiterals: never
+  

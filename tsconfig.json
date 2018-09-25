@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "noImplicitAny": false,
+    "declaration": true,
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src",
+  },
+  "include": [
+    "src"
+  ]
+}
